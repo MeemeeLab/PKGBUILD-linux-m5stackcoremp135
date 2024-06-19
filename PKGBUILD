@@ -3,7 +3,7 @@
 buildarch=1
 
 pkgbase=linux-m5stackcoremp135
-_commit=a470ed2cb600c166eccc1fb3a0e45192a1c3c974
+_commit=7347843c347edc74598502989142b031dec17cc1
 _srcname=linux-$_commit
 _kernelname=${pkgbase#linux}
 _desc="ARMv7 M5Stack CoreMP135"
@@ -18,7 +18,7 @@ source=("$_srcname.tar.gz"::"https://github.com/MeemeeLab/linux/archive/$_commit
         'config'
         'linux.preset')
 md5sums=('SKIP'
-         '36910d078b20f354996c3054e694d179'
+         '5377fe157d4fb41136dddc403b0ac1fe'
          '86d4a35722b5410e3b29fc92dae15d4b')
 
 prepare() {
